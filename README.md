@@ -1,2 +1,68 @@
 # HandsPLDs
-This app automatically tracks hand movements in videos using MediaPipe's Hand Tracking module to generate customizable point light displays (PLDs)
+             -::-                           
+             =-:-         -::               
+       ::    +----        ----              
+      =---    =-:-       =----              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      *--:-   +----      =--==              
+       +=--    -----     ---==              		WELCOME TO THE HandsPLDs Tracking App
+        =-::-  =----    =----               	
+-:-     +----- +----    ---==               	This application tracks hand movements in videos
+=-::     ==-::  =---=  -----=               
+ +--::    +---: *----  ----=+               	using the MediaPipe library and creates PLDs 
+   =--::   *=--:::-----:::-=                
+    +==-::  ------------::--                	versions of them. 
+      +=---::-------::--:---           ---- 
+       *==--:---------:::::--      ---::----
+        =-::::--::--::-::::::-   -------==* 
+        +---::::::::::::--::::::::-==+#     	Follow the instructions below to get started
+         -::::::::::::::::::::--=+*#        
+         +--:::::::-::::::::::---=*         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+         *=--:::-:::::::::::---=#           
+          *=--------:-------==*             
+           *+==----=-=-====+*#              
+            #*++++++**######                
+             ###***++*####                  
+             *******++**#                   
+                 
+
+HandsPLDs Tracking App (v.0.1) User Guide
+
+
+This application is designed to automatically track hand movements in videos using the Hand Tracking module from the MediaPipe library and create highly customizable point light displays (PLDs) versions of them. Before running the application, ensure that you have installed all the required packages. If not, follow the instructions below to install them:
+Before running the script, remember to install all the required libraries
+	Open your terminal or command prompt
+	Use the following command to install the required packages:
+		pip install opencv-python mediapipe numpy tqdm
+Usage Instructions:
+		Select Video(s):
+	•	Click the "Browse" button to select one or more MP4 video files from your computer. You can select multiple videos by holding down the Ctrl (Cmd on macOS) key while clicking.
+		Smoothing Factor:
+	•	Adjust the slider to set the smoothing factor for hand movement. Higher values result in less smoothing of the trajectories.
+		Output Video Size:
+	•	Enter the desired output video size in the format "width x height" (e.g., "1920x1080"). If you check the "Use Same Resolution as Input" box, the output video will have the same resolution as the input video(s).
+		Number of Hands to Track:
+	•	Choose whether to track one or two hands by selecting the corresponding radio button.
+		Dots Size:
+	•	Adjust the slider to set the size of the dots representing hand landmarks in the output video.
+		Process Videos:
+	•	Click the "Process Videos" button to start tracking hand movements in the selected video(s). The progress will be displayed in the console, and upon completion, a message indicating the successful processing of the videos will appear.
+Starting the Script:
+	•	Open your terminal or command prompt.
+	•	Navigate to the directory where the Python script is located using the cd command. For example:
+			cd path/to/your/directory
+
+	•	Once you're in the correct directory, start the script using the appropriate Python command depending on your Python version. For example:
+	•	For Python 3:
+			python HandsPLDs.py
+
+Enjoy tracking hand movements with HandsPLDs Tracking App!
+
+
+For info contact me
+______________________________________
+
+Settimio Ziccarelli
+PhD Student, Research Fellow
+University of Parma
+https://linktr.ee/settimioziccarelli
+settimio.ziccarelli@unipr.it
