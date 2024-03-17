@@ -52,7 +52,7 @@ Starting the Script:
 
 	•	Once you're in the correct directory, start the script using the appropriate Python command depending on your Python version. For example:
 	•	For Python 3:
-			python HandsPLDs.py
+			python3 HandsPLDs.py
 
 Enjoy tracking hand movements with HandsPLDs Tracking App!
 
